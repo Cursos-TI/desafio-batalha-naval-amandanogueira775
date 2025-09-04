@@ -17,7 +17,7 @@ int main(){
     printf("*** TABULEIRO BATALHA NAVAL ***\n");
     
     //imprime cabeçalho das colunas
-    printf("  "); 
+    printf("   "); 
     for(j=0; j < 10; j++){
         printf(" %C ", 'A' + j);
     }
