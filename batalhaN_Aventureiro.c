@@ -46,7 +46,7 @@ int main(){
     printf("\n");
 
     for(i = 0; i < TABULEIRO; i++)//imprime os números da linhas 
-    { printf("%2d ", i + 1);//imprime cabeçalho das linhas (1 a 10)
+    { printf("%2d ", i + 0);//imprime cabeçalho das linhas (1 a 10)
         for(j = 0; j < TABULEIRO; j++)//imprime os números das colunas
         {
         printf(" %d ", tabuleiro[i][j]);//exibir o tabuleiro
