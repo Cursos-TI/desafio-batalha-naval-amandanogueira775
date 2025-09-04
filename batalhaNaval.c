@@ -6,13 +6,13 @@ int main(){
     int i, j;
 
       // adicionando navios (3)
-    tabuleiro[1][1] = 3; // linha 2, coluna B
-    tabuleiro[1][2] = 3; // linha 2, coluna C
-    tabuleiro[1][3] = 3; // linha 2, coluna D
+    tabuleiro[0][5] = 3; // linha 0, coluna F
+    tabuleiro[0][6] = 3; // linha 0, coluna G
+    tabuleiro[0][7] = 3; // linha 0, coluna H
 
-    tabuleiro[4][6] = 3; // linha 5, coluna G
-    tabuleiro[5][6] = 3; // linha 6, coluna G
-    tabuleiro[6][6] = 3; // linha 7, coluna G
+    tabuleiro[2][5] = 3; // linha 2, coluna F
+    tabuleiro[3][5] = 3; // linha 3, coluna F
+    tabuleiro[4][5] = 3; // linha 4, coluna F
 
     printf("*** TABULEIRO BATALHA NAVAL ***\n");
     
